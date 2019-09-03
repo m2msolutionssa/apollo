@@ -5,19 +5,19 @@ env: GO111MODULE=on
 jobs:
   include:
     - go: 1.12.x  
-      script: ./test.sh
+      script: bash test.sh
       os: linux 
     - go: 1.11.x  
-      script: ./test.sh
+      script: bash test.sh
       os: linux 
     - go: 1.12.x  
-      script: ./test.sh
+      script: bash test.sh
       os: osx
     - go: 1.11.x  
-      script: ./test.sh
+      script: bash test.sh
       os: osx 
     - go: 1.12.x  
-      script: ./test.sh
+      script: bash test.sh
       os: windows 
 
 after_success:
