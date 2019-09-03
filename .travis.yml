@@ -5,17 +5,21 @@ env: GO111MODULE=on
 jobs:
   include:
     - go: 1.12.x  
-      script: go test -v -race ./...
+      script: ./test.sh
       os: linux 
     - go: 1.11.x  
-      script: go test -v -race ./...
+      script: ./test.sh
       os: linux 
     - go: 1.12.x  
-      script: go test -v -race ./...
+      script: ./test.sh
       os: osx
     - go: 1.11.x  
-      script: go test -v -race ./...
+      script: ./test.sh
       os: osx 
     - go: 1.12.x  
-      script: go test -v -race ./...
+      script: ./test.sh
       os: windows 
+
+after_success:
+  - go test -race -coverprofile=coverage.txt -covermode=atomic
+  - bash <(curl -s https://codecov.io/bash)
