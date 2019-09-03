@@ -1,6 +1,6 @@
 # Apollo: Dependency Injection for Go
 
-![Build Status](https://travis-ci.com/m2msolutionssa/apollo.svg?branch=master)
+[![Build Status](https://travis-ci.com/m2msolutionssa/apollo.svg?branch=master)](https://travis-ci.com/m2msolutionssa/apollo)
 ![godoc](https://godoc.org/github.com/m2msolutionssa/apollo?status.svg)
 [![Coverage](https://codecov.io/gh/m2msolutionssa/apollo/branch/master/graph/badge.svg)](https://codecov.io/gh/m2msolutionssa/apollo)
 
