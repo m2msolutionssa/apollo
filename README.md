@@ -1,7 +1,7 @@
 # Apollo: Dependency Injection for Go
 
 [![Build Status](https://travis-ci.com/m2msolutionssa/apollo.svg?branch=master)](https://travis-ci.com/m2msolutionssa/apollo)
-![godoc](https://godoc.org/github.com/m2msolutionssa/apollo?status.svg)
+[![godoc](https://godoc.org/github.com/m2msolutionssa/apollo?status.svg)](https://godoc.org/github.com/m2msolutionssa/apollo)
 [![Coverage](https://codecov.io/gh/m2msolutionssa/apollo/branch/master/graph/badge.svg)](https://codecov.io/gh/m2msolutionssa/apollo)
 
 Apollo is a reflection-based dependency injection library designed for Go projects.
