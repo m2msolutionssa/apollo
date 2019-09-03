@@ -151,7 +151,6 @@ func (apollo *Apollo) Fetch(typed reflect.Type) interface{} {
 	object := returns[0].Interface()
 
 	isNotSingleton := apollo.cache.notSingletons[key]
-	fmt.Println(isNotSingleton)
 
 	if !isNotSingleton {
 		apollo.cache.components[key] = object
